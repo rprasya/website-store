@@ -26,13 +26,13 @@ const Info: React.FC<InfoProps> = ({ data }) => {
         </p>
       </div>
       <hr className="my-4" />
-      <div className="flex items-center gap-x-3 mt-10">
-      <Link href={link} target="_blank">
-        <Button className="flex items-center gap-x-2">
-          Chat Penjual
-          <MessageCircleIcon size={20} />
-        </Button>
-      </Link>
+      <div className="mt-10 flex items-center gap-x-3">
+        <Link href={link} target="_blank">
+          <Button className="flex items-center gap-x-2">
+            Chat Penjual
+            <MessageCircleIcon size={20} />
+          </Button>
+        </Link>
       </div>
     </div>
   );
